@@ -6,6 +6,8 @@ public class Arrays {
         int[] arrayTest = new int[] {66,55,4,6,5,3,2,7,6,5,3,8,122,256,3,2,4,5,0,0,3,4};
         //System.out.println(sumOfFirstAndLast(arrayTest).toString());
 
+        //
+
         sumOfElements(arrayTest);
         sumOfElements1(arrayTest);
         sumOfEvenInd(arrayTest);

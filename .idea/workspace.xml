@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8deffdc0-8130-43b8-90e7-dd98e1af554a" name="Changes" comment="Add HW Arr" />
+    <list default="true" id="8deffdc0-8130-43b8-90e7-dd98e1af554a" name="Changes" comment="Add HW Arr2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +88,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add HW Arr" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add HW Arr" />
+    <MESSAGE value="Add HW Arr2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add HW Arr2" />
   </component>
 </project>
