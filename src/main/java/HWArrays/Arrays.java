@@ -6,7 +6,6 @@ public class Arrays {
         int[] arrayTest = new int[] {66,55,4,6,5,3,2,7,6,5,3,8,122,256,3,2,4,5,0,0,3,4};
         //System.out.println(sumOfFirstAndLast(arrayTest).toString());
 
-        //
 
         sumOfElements(arrayTest);
         sumOfElements1(arrayTest);
@@ -58,6 +57,7 @@ public class Arrays {
         System.out.println(sumOfOddInd);
     }
 
+    // Здесь я невнимательно прочла задание. Думала, нужно вернуть массив сумм.
     public static int[] sumOfFirstAndLast (int[] array) {
         int[] arrayRes = new int[array.length / 2];
         for (int i = 0; i < array.length/2; i++) {
@@ -69,6 +69,8 @@ public class Arrays {
         } return arrayRes;
 
     }
+
+
 
     public static void printArray (int[] array) {
         sumOfFirstAndLast(array);
