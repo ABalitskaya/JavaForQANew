@@ -57,7 +57,7 @@ public class Arrays {
         System.out.println(sumOfOddInd);
     }
 
-    // Здесь я невнимательно прочла задание. Думала, нужно вернуть массив сумм.
+    // Здесь я невнимательно прочла задание. Думала, нужно вернуть массив сумм крайних элементов)).
     public static int[] sumOfFirstAndLast (int[] array) {
         int[] arrayRes = new int[array.length / 2];
         for (int i = 0; i < array.length/2; i++) {
@@ -69,6 +69,25 @@ public class Arrays {
         } return arrayRes;
 
     }
+
+    public static int getSum(int[] arr) {
+        int sum = 0;
+        int start = 0;
+        int end = arr.length - 1;
+        while (start <= end) {
+            if (start == end) {
+                sum = sum + arr[start];
+                break;
+            }
+            //[1 2 3 4 5 6 7]
+            sum = sum + (arr[start] + arr[end]);
+            start++;
+            end--;
+        }
+        return sum;
+    }
+
+
 
 
 
