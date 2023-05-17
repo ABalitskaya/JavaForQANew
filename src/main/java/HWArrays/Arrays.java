@@ -47,6 +47,7 @@ public class Arrays {
         System.out.println(sumOfEvenInd);
     }
 
+
     public static void sumOfOddInd (int[] array) {
         int sumOfOddInd = 0;
         for (int i = 0; i < array.length; i++) {
@@ -57,7 +58,7 @@ public class Arrays {
         System.out.println(sumOfOddInd);
     }
 
-    // Здесь я невнимательно прочла задание. Думала, нужно вернуть массив сумм крайних элементов)).
+    // Возвращает массив сумм крайних элементов. А метод, складывающий значения всех индексов, уже есть.
     public static int[] sumOfFirstAndLast (int[] array) {
         int[] arrayRes = new int[array.length / 2];
         for (int i = 0; i < array.length/2; i++) {

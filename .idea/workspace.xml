@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8deffdc0-8130-43b8-90e7-dd98e1af554a" name="Changes" comment="Added comment">
+    <list default="true" id="8deffdc0-8130-43b8-90e7-dd98e1af554a" name="Changes" comment="Added HW Queue">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExampleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Feb1/DvumerArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Feb1/ForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Feb1/RandomEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Feb13/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Feb16/JavaCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Feb24/BinaryTreeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Feb24/MapExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Feb8/StackAndQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InsertAndMergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mar13/FileExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mar31/RegularVyr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PersonForTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TaskSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Timsort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tools/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TryAndCatch/task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HWArrays/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HWArrays/Arrays.java" afterDir="false" />
     </list>
@@ -32,20 +50,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HWArrays.Arrays" />
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abali\IdeaProjects\JavaForQANew\src\main\java" />
+      <recent name="C:\Users\abali\IdeaProjects\JavaForQANew\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TaskSort">
+    <configuration name="MapExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Feb24.MapExamples" />
       <module name="JavaForQANew" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HWArrays.*" />
+          <option name="PATTERN" value="Feb24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegularVyr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mar31.RegularVyr" />
+      <module name="JavaForQANew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mar31.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tools.Task" />
+      <module name="JavaForQANew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May17.TaskSort" />
+      <module name="JavaForQANew" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TryAndCatch.task" />
+      <module name="JavaForQANew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TryAndCatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,7 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Arrays" />
+        <item itemvalue="Application.TaskSort" />
+        <item itemvalue="Application.Task" />
+        <item itemvalue="Application.RegularVyr" />
+        <item itemvalue="Application.task" />
+        <item itemvalue="Application.MapExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +163,28 @@
       <option name="project" value="LOCAL" />
       <updated>1675253888243</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added method">
+      <created>1675254331814</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675254331814</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added class MyArrayList Homework">
+      <created>1676632324399</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676632324399</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added HW Queue">
+      <created>1676993942549</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676993942549</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +202,9 @@
     <MESSAGE value="Add HW Arr" />
     <MESSAGE value="Add HW Arr2" />
     <MESSAGE value="Added comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comment" />
+    <MESSAGE value="Added method" />
+    <MESSAGE value="Added class MyArrayList Homework" />
+    <MESSAGE value="Added HW Queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HW Queue" />
   </component>
 </project>
