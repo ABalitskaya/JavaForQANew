@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8deffdc0-8130-43b8-90e7-dd98e1af554a" name="Changes" comment="Added tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LiftTask/Building.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LiftTask/Lift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LiftTask/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/May17/Homework.java" afterDir="false" />
+    <list default="true" id="8deffdc0-8130-43b8-90e7-dd98e1af554a" name="Changes" comment="Added directory Lift">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HappyNumber/HappyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/May17/TaskSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/May17/TaskSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +45,13 @@
       <recent name="C:\Users\abali\IdeaProjects\JavaForQANew\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TaskSort">
-    <configuration name="MapExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Feb24.MapExamples" />
+  <component name="RunManager" selected="Application.HappyNumber">
+    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HappyNumber.HappyNumber" />
       <module name="JavaForQANew" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Feb24.*" />
+          <option name="PATTERN" value="HappyNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HappyNumber" />
         <item itemvalue="Application.TaskSort" />
         <item itemvalue="Application.Task" />
         <item itemvalue="Application.RegularVyr" />
         <item itemvalue="Application.task" />
-        <item itemvalue="Application.MapExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684319945553</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added directory Lift">
+      <created>1684413592820</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684413592820</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +202,7 @@
     <MESSAGE value="Added class MyArrayList Homework" />
     <MESSAGE value="Added HW Queue" />
     <MESSAGE value="Added tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tasks" />
+    <MESSAGE value="Added directory Lift" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added directory Lift" />
   </component>
 </project>
