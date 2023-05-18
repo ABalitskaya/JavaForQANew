@@ -1,8 +1,5 @@
 package May17;
 
-import May17.ExampleObject;
-import May17.PersonForTask;
-
 import java.util.*;
 
 public class TaskSort {
@@ -14,11 +11,13 @@ public class TaskSort {
 
         int[] arrayInt = {1,3,2,66,234,9,333,0,-35};
         Arrays.sort(arrayInt); //по возрастанию
+        System.out.println(Arrays.toString(arrayInt));
 
         // 1. Создайте массив строк и отсортируйте его в алфавитном порядке с использованием метода sort().
 
         String[] example = {"Hi", "Hello", "Blablabla", "How are you?", "Hahaha"};
         Arrays.sort(example);
+        System.out.println(Arrays.toString(example));
 
         // 3. Создайте массив объектов, у каждого объекта есть свойство name.
         // Отсортируйте массив объектов по алфавитному порядку их имен, используя метод sort().
@@ -61,7 +60,7 @@ public class TaskSort {
 
         PersonForTask[] persons = {
                 new PersonForTask("Maria", 33),
-                new PersonForTask("Gio", 100),
+                new PersonForTask("Gio", 54),
                 new PersonForTask("Ekaterine", 7),
                 new PersonForTask("Lado", 13),
                 new PersonForTask("Merab", 48),
