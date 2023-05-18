@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8deffdc0-8130-43b8-90e7-dd98e1af554a" name="Changes" comment="Added directory Lift">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HappyNumber/HappyNumber.java" afterDir="false" />
+    <list default="true" id="8deffdc0-8130-43b8-90e7-dd98e1af554a" name="Changes" comment="Added hw happy numbers">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BooksSortHW/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BooksSortHW/SortBooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
       <recent name="C:\Users\abali\IdeaProjects\JavaForQANew\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HappyNumber">
+  <component name="RunManager" selected="Application.SortBooks">
     <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HappyNumber.HappyNumber" />
       <module name="JavaForQANew" />
@@ -65,6 +66,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Mar31.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortBooks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BooksSortHW.SortBooks" />
+      <module name="JavaForQANew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BooksSortHW.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,26 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TryAndCatch.task" />
-      <module name="JavaForQANew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TryAndCatch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortBooks" />
         <item itemvalue="Application.HappyNumber" />
         <item itemvalue="Application.TaskSort" />
         <item itemvalue="Application.Task" />
         <item itemvalue="Application.RegularVyr" />
-        <item itemvalue="Application.task" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684413592820</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added hw happy numbers">
+      <created>1684416539589</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684416539589</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +211,7 @@
     <MESSAGE value="Added HW Queue" />
     <MESSAGE value="Added tasks" />
     <MESSAGE value="Added directory Lift" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added directory Lift" />
+    <MESSAGE value="Added hw happy numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added hw happy numbers" />
   </component>
 </project>
