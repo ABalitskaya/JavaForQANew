@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8deffdc0-8130-43b8-90e7-dd98e1af554a" name="Changes" comment="Added homework: sort of books">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsTasks/AVG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsTasks/RomanToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AlgorithmsTasks/AlgorithmTaskTest.java" afterDir="false" />
+    <list default="true" id="8deffdc0-8130-43b8-90e7-dd98e1af554a" name="Changes" comment="Added AVG-method, RomanToInteger and unit test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsTasks/ArraysSortTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dates/Dates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AlgorithmsTasks/ArraysSortTaskTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlgorithmsTasks/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsTasks/RomanToInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -59,8 +59,8 @@
       <recent name="AlgorithmsTasks" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AlgorithmTaskTest.testSortNull">
-    <configuration name="AlgorithmTaskTest.testAverageEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArraysSortTaskTest.testArraySortWithNull">
+    <configuration name="ArraysSortTaskTest.testArraySortClassic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForQANew" />
       <extension name="coverage">
         <pattern>
@@ -69,14 +69,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AlgorithmsTasks" />
-      <option name="MAIN_CLASS_NAME" value="AlgorithmsTasks.AlgorithmTaskTest" />
-      <option name="METHOD_NAME" value="testAverageEmpty" />
+      <option name="MAIN_CLASS_NAME" value="AlgorithmsTasks.ArraysSortTaskTest" />
+      <option name="METHOD_NAME" value="testArraySortClassic" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlgorithmTaskTest.testAverageOnlyOneElementInArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArraysSortTaskTest.testArraySortOfSymbols" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForQANew" />
       <extension name="coverage">
         <pattern>
@@ -85,14 +85,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AlgorithmsTasks" />
-      <option name="MAIN_CLASS_NAME" value="AlgorithmsTasks.AlgorithmTaskTest" />
-      <option name="METHOD_NAME" value="testAverageOnlyOneElementInArray" />
+      <option name="MAIN_CLASS_NAME" value="AlgorithmsTasks.ArraysSortTaskTest" />
+      <option name="METHOD_NAME" value="testArraySortOfSymbols" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlgorithmTaskTest.testPositiveAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArraysSortTaskTest.testArraySortOfSymbolsBigAndSmall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForQANew" />
       <extension name="coverage">
         <pattern>
@@ -101,14 +101,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AlgorithmsTasks" />
-      <option name="MAIN_CLASS_NAME" value="AlgorithmsTasks.AlgorithmTaskTest" />
-      <option name="METHOD_NAME" value="testPositiveAverage" />
+      <option name="MAIN_CLASS_NAME" value="AlgorithmsTasks.ArraysSortTaskTest" />
+      <option name="METHOD_NAME" value="testArraySortOfSymbolsBigAndSmall" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlgorithmTaskTest.testQueueSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArraysSortTaskTest.testArraySortWithNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForQANew" />
       <extension name="coverage">
         <pattern>
@@ -117,14 +117,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AlgorithmsTasks" />
-      <option name="MAIN_CLASS_NAME" value="AlgorithmsTasks.AlgorithmTaskTest" />
-      <option name="METHOD_NAME" value="testQueueSort" />
+      <option name="MAIN_CLASS_NAME" value="AlgorithmsTasks.ArraysSortTaskTest" />
+      <option name="METHOD_NAME" value="testArraySortWithNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlgorithmTaskTest.testSortNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArraysSortTaskTest.testArraySortWithNullOnly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForQANew" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +133,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AlgorithmsTasks" />
-      <option name="MAIN_CLASS_NAME" value="AlgorithmsTasks.AlgorithmTaskTest" />
-      <option name="METHOD_NAME" value="testSortNull" />
+      <option name="MAIN_CLASS_NAME" value="AlgorithmsTasks.ArraysSortTaskTest" />
+      <option name="METHOD_NAME" value="testArraySortWithNullOnly" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AlgorithmTaskTest.testSortNull" />
-        <item itemvalue="JUnit.AlgorithmTaskTest.testQueueSort" />
-        <item itemvalue="JUnit.AlgorithmTaskTest.testPositiveAverage" />
-        <item itemvalue="JUnit.AlgorithmTaskTest.testAverageOnlyOneElementInArray" />
-        <item itemvalue="JUnit.AlgorithmTaskTest.testAverageEmpty" />
+        <item itemvalue="JUnit.ArraysSortTaskTest.testArraySortWithNull" />
+        <item itemvalue="JUnit.ArraysSortTaskTest.testArraySortOfSymbolsBigAndSmall" />
+        <item itemvalue="JUnit.ArraysSortTaskTest.testArraySortWithNullOnly" />
+        <item itemvalue="JUnit.ArraysSortTaskTest.testArraySortClassic" />
+        <item itemvalue="JUnit.ArraysSortTaskTest.testArraySortOfSymbols" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684419264939</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added AVG-method, RomanToInteger and unit test">
+      <created>1684925282812</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684925282812</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,17 +261,7 @@
     <MESSAGE value="Added directory Lift" />
     <MESSAGE value="Added hw happy numbers" />
     <MESSAGE value="Added homework: sort of books" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added homework: sort of books" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/AlgorithmsTasks/AlgorithmTaskTest.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Added AVG-method, RomanToInteger and unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added AVG-method, RomanToInteger and unit test" />
   </component>
 </project>

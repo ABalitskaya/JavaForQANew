@@ -1,6 +1,8 @@
 package AlgorithmsTasks;
 
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 
 // Преобразование римских цифр в арабские
@@ -24,6 +26,13 @@ public class RomanToInteger {
         System.out.println(romToInt(romanNumeral5));
         System.out.println(romToInt(romanNumeral6));
         System.out.println(romToInt(romanNumeral7));
+
+        List<String> list = new LinkedList<>();
+        list.add("Vasya");
+        System.out.println(list.contains("Vasya")); // Вернет true
+        if(list.contains("Vasya")) {
+            System.out.println("Да, Вася действительно есть в этом списке ;)");
+        }
     }
 
     public static int romToInt(String romanString) {
